@@ -2,7 +2,7 @@
 
 ##code
 
-```pjava
+```java
 rule A very simple BRD Template
 
 when !isReported() && description == null && Type = {Feature} {
@@ -10,6 +10,7 @@ when !isReported() && description == null && Type = {Feature} {
         "Describe how this request will help the specific customer group" + "\n\n" +
         "Describe the current solution (if any) and why is is not abequate:";
 }
+```
 
 ## Help
 You can change the text to align with your project and/or you can add more points.
