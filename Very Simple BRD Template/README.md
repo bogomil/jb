@@ -5,7 +5,7 @@
 ```java
 rule A very simple BRD Template
 
-when !isReported() && description == null && Type = {Feature} {
+when !isReported() && description == null && Type == {Feature} {
     description = "Describe objectives ans main purpose of this request:" + "\n\n" +
         "Describe how this request will help the specific customer group" + "\n\n" +
         "Describe the current solution (if any) and why is is not abequate:";
